@@ -1,0 +1,20 @@
+.home-container {
+    display: flex;
+    align-items: center; /* Align text and image vertically */
+    justify-content: center; /* Centers content */
+    gap: 60px; /* Adds space between text and image */
+    padding: 50px;
+    width: 90%;
+    margin: auto; /* Centers the entire section */
+}
+
+.text-content {
+    flex: 1; /* Text expands */
+    max-width: 70%; /* Gives more space to text */
+}
+
+.right-image {
+    width: 25%; /* Adjusts image size */
+    max-width: 350px; /* Prevents image from being too big */
+    height: auto;
+}
